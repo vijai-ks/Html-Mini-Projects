@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+* {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: url(1.png) no-repeat;
+  background-size: cover;
+  background-position: cover;
+  height: 100vh;
+  width: 100%;
+}
+
+.nav-bar {
+  background: rgba(255, 255, 255, 0.2);
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  height: 80px;
+  width: 100%;
+}
+
+.logo-image {
+  color: #fff;
+  cursor: pointer;
+  font-size: 34px;
+  font-weight: bold;
+  line-height: 80px;
+  padding: 0 100px;
+}
+
+.nav-bar ul {
+  float: right;
+  list-style: none;
+}
+
+.nav-bar li {
+  display: inline-block;
+  line-height: 80px;
+  margin: 0 10px;
+}
+
+.nav-bar li a {
+  color: #fff;
+  font-size: 17px;
+  font-weight: 500;
+  padding: 7px 25px;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+
+.nav-bar li a:hover {
+  border-bottom: 2px solid orangered;
+  transition: 0.3s;
+}
+
+.login-button {
+  background: transparent;
+  border: 2px solid #fff;
+  border-radius: 6px;
+  color: #fff;
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: 600;
+  height: 40px;
+  letter-spacing: 1px;
+  outline: none;
+  width: 100px;
+}
+
+.login-button:focus {
+  background: orangered;
+  border: none;
+  color: #fff;
+}
