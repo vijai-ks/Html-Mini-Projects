@@ -29,7 +29,7 @@
       </ul>
     </nav>
     <div class="login-container">
-      <div class="login-form">
+      <div class="login-form loginForm">
         <div class="login-form-values">
           <h2>Login</h2>
           <div class="input-box">
@@ -63,7 +63,50 @@
           <div class="account-creation">
             <span
               >Don't have any Account?
-              <a href="#"> Register Here </a>
+              <a href="#" class="register-button"> Register Here </a>
+            </span>
+          </div>
+        </div>
+      </div>
+
+      <div class="login-form register-form">
+        <div class="login-form-values">
+          <h2>Register</h2>
+          <div class="input-box">
+            <ion-icon name="mail-outline"></ion-icon>
+            <input
+              type="email"
+              placeholder=""
+              class="login-input-box"
+              required
+            />
+            <label for="login" class="login-label">Email</label>
+          </div>
+          <div class="input-box">
+            <ion-icon name="lock-closed-outline"></ion-icon>
+            <input
+              type="password"
+              placeholder=""
+              class="login-input-box"
+              required
+            />
+            <label for="login" class="login-label">Password</label>
+          </div>
+          <div class="input-box">
+            <ion-icon name="lock-closed-outline"></ion-icon>
+            <input
+              type="password"
+              placeholder=""
+              class="login-input-box"
+              required
+            />
+            <label for="login" class="login-label">Confirm Password</label>
+          </div>
+          <button class="login-submit-button">Register</button>
+          <div class="account-creation">
+            <span
+              >Already have an Account?
+              <a href="#"> Login Here </a>
             </span>
           </div>
         </div>

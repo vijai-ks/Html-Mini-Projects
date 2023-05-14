@@ -198,3 +198,14 @@ ion-icon {
   right: 8px;
   top: 20px;
 }
+
+.register-form {
+  position: absolute;
+  transform: scale(0) rotate(360deg);
+  transition: 0.5s;
+  transition-delay: 0.2s;
+}
+
+.register-form-box {
+  transform: scale(1) rotate(0);
+}
