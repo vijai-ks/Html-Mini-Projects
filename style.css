@@ -185,3 +185,11 @@ body {
 .account-creation a:hover {
   border-bottom: 2px solid var(--light-orange-red);
 }
+
+.ion-icon {
+  color: var(--primary-white);
+  font-size: 1.2em;
+  position: absolute;
+  right: 8px;
+  top: 20px;
+}
