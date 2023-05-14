@@ -77,3 +77,111 @@ body {
   border: none;
   color: var(--primary-white);
 }
+
+.login-container {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  min-height: 90vh;
+}
+
+.login-form {
+  align-items: center;
+  background: var(--bg-light-black);
+  border-radius: 20px;
+  display: flex;
+  height: 450px;
+  justify-content: center;
+  position: relative;
+  width: 400px;
+}
+
+.login-form-values h2 {
+  color: var(--primary-white);
+  font-size: 35px;
+  text-align: center;
+}
+
+.input-box {
+  border-bottom: 2px solid var(--primary-white);
+  margin: 30px 0;
+  position: relative;
+  width: 310px;
+}
+
+.login-input-box {
+  background: transparent;
+  border: none;
+  color: var(--primary-white);
+  font-size: 16px;
+  height: 50px;
+  outline: none;
+  padding: 0 35px 0 5px;
+  width: 100%;
+}
+
+.login-label {
+  color: var(--primary-white);
+  font-size: 16px;
+  left: 5px;
+  pointer-events: none;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  transition: 0.5s;
+}
+
+.login-input-box:focus ~ .login-label,
+.login-input-box:valid ~ .login-label {
+  top: -5px;
+}
+
+.login-submit-button {
+  background: var(--light-orange-red);
+  border: none;
+  border-radius: 4px;
+  color: var(--primary-white);
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: 500;
+  height: 45px;
+  outline: none;
+  width: 100%;
+}
+
+.remember-password {
+  color: var(--primary-white);
+  display: flex;
+  font-size: 0.9em;
+  justify-content: space-between;
+  margin: -15px 0 15px;
+}
+
+.remember-password a {
+  color: var(--primary-white);
+  font-size: 14px;
+  text-decoration: none;
+}
+
+.remember-password input {
+  accent-color: var(--light-orange-red);
+  margin-right: 3px;
+}
+
+.account-creation {
+  color: var(--primary-white);
+  margin-top: 5px;
+  text-align: center;
+}
+
+.account-creation a {
+  color: var(--primary-white);
+  font-weight: 600;
+  letter-spacing: 1px;
+  text-decoration: none;
+  transition: 0.4s;
+}
+
+.account-creation a:hover {
+  border-bottom: 2px solid var(--light-orange-red);
+}
