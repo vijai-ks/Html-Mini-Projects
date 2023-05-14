@@ -93,7 +93,12 @@ body {
   height: 450px;
   justify-content: center;
   position: relative;
+  transform: scale(0) rotate(360deg);
   width: 400px;
+}
+
+.login-form-box {
+  transform: scale(1) rotate(0);
 }
 
 .login-form-values h2 {
@@ -186,7 +191,7 @@ body {
   border-bottom: 2px solid var(--light-orange-red);
 }
 
-.ion-icon {
+ion-icon {
   color: var(--primary-white);
   font-size: 1.2em;
   position: absolute;
